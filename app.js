@@ -32,7 +32,7 @@ require('./routes/web.js')(app)
 require('./routes/api.js')(app)
 
 //--------port----------
-const PORT = process.env.PORT || 1136
+const PORT = process.env.PORT
 const server = app.listen(PORT, ()=>{
     console.log(PORT) 
 })
